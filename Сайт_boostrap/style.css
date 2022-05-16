@@ -1,0 +1,71 @@
+blockquote {
+    border: 1px solid #0074bf;
+    border-radius: 60px;
+    color: #000;
+    padding: 35px 20px 25px 30px; /*--сверху, справа, снизу, слева*/
+    font-family: "QuadraatSansPro";
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 400;
+    margin: 20px 0 20px; /*--сверху, слева и справа, снизу*/
+    display: block;
+    /*Элемент показывается как блочный. Применение этого значения для строчных элементов, например <span>, 
+    заставляет его вести подобно блокам — происходит перенос строк в начале и в конце содержимого.*/
+}
+
+@font-face {
+    font-family: 'QuadraatSansPro';
+    font-weight: normal;
+    src: url(QuadraatSansPro.otf);
+}
+
+.bullet {
+    list-style: none; /*Убираем исходную нумерацию у списка*/
+    counter-reset: li; /*Инициируем счетчик списка*/
+}
+
+.bullet li {
+    position: relative;
+    margin-bottom: 1.5em;
+    border: 3px solid #0074bf;
+    padding: 0.6em;
+    border-radius: 4px;
+    background: #FEFEFE;
+    color: #231F20;
+    font-family: "Trebuchet MS", "Lucida Sans";
+}
+
+.bullet li:before {
+    position: absolute;  /*Абсолютно позиционируемый элемент (относительно страницы, а не элементов)*/
+    top: -0.7em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    font-size: 16px;
+    font-weight: bold;
+    color: #DCC24B;
+    background: #FEFEFE;
+    border-radius: 50%;
+    counter-increment: li; /* для увеличения значения счётчика приращений */
+    content: counter(li); /* выводит номер пункта из списка */
+}
+li {
+  list-style-type: none;
+  /* Убираем маркеры */
+}
+
+.imgblock3 {
+    position: relative;
+    display: inline-block;
+    /*Это значение генерирует блочный элемент, который обтекается другими элементами веб-страницы подобно строчному элементу. 
+    Фактически такой элемент по своему действию похож на встраиваемые элементы (вроде <img>). При этом его внутренняя часть форматируется как блочный элемент, а сам элемент — как строчный. */
+}
+.imgblock3 img {
+    height: 500px;
+    width: 1300px;
+    border-radius: 10px;
+}
+
+.relative{
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>
+Визитка
+</title>
+<link href="style1.css" rel="stylesheet">
+</head>
+
+<body>
+
+<center><div class="osnova"><div>
+<img src="ph.jpg" width="350px" height="550px" >
+</div>
+</div></center>
+
+
+<section class="education">Учеба</section>
+
+<center><div class="footer"><a class="ftext">
+<br>Контакты
+<br>Адрес:
+<br>440026, г. Пенза, ул. Красная, 40 На карте
+<br>Справочная ПГУ: +7 (8412) 66-64-19
+<br>Анонимный телефон доверия: 28-18-58
+<br>E-mail: cnit@pnzgu.ru
+<br>Приёмная комиссия: +7 (8412) 66-62-32 «горячая» телефонная линия по приему абитуриентов
+<br>E-mail: priem@pnzgu.ru
+</a>
+</div></center>
+</body>
+
+</html>

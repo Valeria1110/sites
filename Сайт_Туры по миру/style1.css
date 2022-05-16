@@ -1,0 +1,257 @@
+.description {
+    position: absolute;
+    top: 45%;
+    font-size: 25px;
+    left: 38%;
+}
+
+.preview {
+    position: absolute;
+    top: 47%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    height: 45%;
+    width: 35%;
+}
+
+a {
+    text-decoration: none;
+}
+
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cl-effect-14 ul {
+    list-style-type: none;
+}
+
+.sun {
+
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    height: 207px;
+    width: 209px;
+}
+
+.color-1 {
+    top: 10%;
+    position: absolute;
+    
+}
+
+.into {
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    font-size: 32px;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+.rusName {
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 38%;
+    left: 29%;
+}
+
+.avatar {
+
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.region1 {
+    position: absolute;
+    top: 45%;
+    left: 29%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.region2 {
+    position: absolute;
+    top: 45%;
+    left: 44%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.region3 {
+    position: absolute;
+    top: 45%;
+    left: 61%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.rus {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    height: 150px;
+    width: 300px;
+}
+
+.flags {
+    position: absolute;
+    top: 35%;
+    left: 34%;
+
+}
+
+.es {
+    height: 150px;
+    margin-left: 15px;
+}
+
+.ru {
+    height: 150px;
+}
+
+.headerChoice {
+    position: absolute;
+    top: 10%;
+    left: 37%;
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 50px;
+}
+
+.header {
+    position: absolute;
+    top: 7%;
+    left: 38%;
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+.circle {
+    z-index: 1;
+    width: 200px;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    border-radius: 50%;
+    border: 5px solid rgb(44, 183, 238);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    width: 100%;
+}
+
+.cl-effect-14 a {
+    padding: 0 20px;
+    height: 45px;
+    line-height: 45px;
+}
+
+.cl-effect-14 a::before,
+.cl-effect-14 a::after {
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    background: black;
+    content: '';
+    opacity: 0.2;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    pointer-events: none;
+}
+
+.cl-effect-14 a::before {
+    top: 0;
+    left: 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.cl-effect-14 a::after {
+    right: 0;
+    bottom: 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 100% 0;
+    -moz-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::before,
+.cl-effect-14 a:focus::after {
+    opacity: 1;
+}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:focus::before {
+    left: 50%;
+    -webkit-transform: rotate(0deg) translateX(-50%);
+    -moz-transform: rotate(0deg) translateX(-50%);
+    transform: rotate(0deg) translateX(-50%);
+}
+
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::after {
+    right: 50%;
+    -webkit-transform: rotate(0deg) translateX(50%);
+    -moz-transform: rotate(0deg) translateX(50%);
+    transform: rotate(0deg) translateX(50%);
+}
+
+nav a {
+    position: relative;
+    display: inline-block;
+    margin: 15px 25px;
+    outline: none;
+    color: cornflowerblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+    font-size: 1.35em;
+}
+
+nav a:hover,
+nav a:focus {
+    outline: none;
+}
+
+.hr1 {
+    margin-top: 20%;
+}
+
+.hr2 {
+    margin-top: 54%;
+}
+
+footer {
+    clear: both;
+    padding: 10px 20px;
+    background: #435a6b;
+    color: white;
+    position: absolute;
+    top: 140%;
+    left: -0.5%;
+    font-size: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+    width: 98%;
+}

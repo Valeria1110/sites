@@ -1,0 +1,287 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.header {
+    height: 40px;
+    padding: 10px 30px 10px;
+    background: #e1e1e1;
+    list-style-type: none;
+}
+
+footer {
+    clear: both;
+    padding: 10px 20px;
+    background: #435a6b;
+    color: white;
+    position: relative;
+    font-size: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+a {
+    color: #00aaff;
+}
+
+h1 {
+    font-family: 'Train One', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+.img{
+    padding-right: 40px;
+}
+
+.descr{
+    text-align: right;
+}
+
+.list{
+    list-style-type: none;
+    font-size:20px;
+}
+
+.price{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+
+.head {
+    background: url(kalei.png);
+    max-height: inherit;
+    max-width: inherit;
+}
+
+.osnova {
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    padding-top: 30px;
+    width: 95%;
+    height: 1300px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-left: 2%;
+    border-radius: 2%;
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.products {
+    position: relative;
+    background-color: #DCDCDC;
+    width: 230px;
+    height: 330px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+
+ul.hr {
+    margin: 0px;
+    padding-top: 150px;
+    padding-right: 1%;
+    padding-left: 1%;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+ul.hr li {
+    padding: 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.undertext {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+.more {
+    position: absolute;
+    bottom: 0;
+    right: 30%;
+    height: 40px;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    background-color: darkgray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    border-radius: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.more:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.p1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    padding-left: 30%;
+}
+
+
+/* products */
+.text {
+    font-size: 30px;
+    font-family: 'Jura', sans-serif;
+}
+
+
+.textdva {
+    margin-top: 15%;
+    font-size: 30px;
+    font-family: 'Jura', sans-serif;
+}
+
+.osnovadva {
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    padding-top: 50px;
+    width: 90%;
+    height: 1700px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-left: 70px;
+    border-radius: 2%;
+}
+
+
+.products img {
+    transition: 1s;
+    display: block;
+}
+
+.products img:hover {
+    transform: scale(1.2);
+}
+
+.txt {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+
+
+/* ссылки для Каталога и Главной */
+.cl-effect-14 a {
+    padding: 0 20px;
+    height: 45px;
+    line-height: 45px;
+}
+
+.cl-effect-14 a::before,
+.cl-effect-14 a::after {
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    background: black;
+    content: '';
+    opacity: 0.2;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    pointer-events: none;
+}
+
+.cl-effect-14 a::before {
+    top: 0;
+    left: 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.cl-effect-14 a::after {
+    right: 0;
+    bottom: 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 100% 0;
+    -moz-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::before,
+.cl-effect-14 a:focus::after {
+    opacity: 1;
+}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:focus::before {
+    left: 50%;
+    -webkit-transform: rotate(0deg) translateX(-50%);
+    -moz-transform: rotate(0deg) translateX(-50%);
+    transform: rotate(0deg) translateX(-50%);
+}
+
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::after {
+    right: 50%;
+    -webkit-transform: rotate(0deg) translateX(50%);
+    -moz-transform: rotate(0deg) translateX(50%);
+    transform: rotate(0deg) translateX(50%);
+}
+
+nav a {
+    position: relative;
+    display: inline-block;
+    margin: 15px 25px;
+    outline: none;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+    font-size: 1.35em;
+}
+
+nav a:hover,
+nav a:focus {
+    outline: none;
+}
+
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.color-1 {
+    background:  #f8f8f8;
+}
+.cl-effect-14 ul
+{
+    list-style-type: none;
+}
